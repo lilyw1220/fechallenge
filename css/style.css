@@ -1,0 +1,100 @@
+body {
+  background-color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+  background-color: #2A56C6
+
+}
+
+.restaurant-list {
+  padding-top: 50px;
+  background-color: #ffffff
+
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  color: #2A56C6;
+  margin-top: 0.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 3em;
+  margin-top: -0.8em;
+  margin-bottom: 0.3em;
+
+}
+
+h3{
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #4D4D4D;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+
+h4{
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #8B8A93;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+  font-family: "Roboto";
+  margin-right: 0.75em;
+}
+
+.arrow {
+  float:right;
+  margin-top: -46px;
+  margin-right: 15px;
+}
+
+.ellipsis{
+  float:right;
+  margin-right: 2.5em;
+  margin-top: -2.5em;
+}
+
+.arrow-left{
+  margin-top: 0.5em;
+  margin-bottom: -2.9em;
+}
+
+.left-arrow{
+  margin-top: 2em;
+
+}
+
+.content {
+  padding: 15px;
+}
+
+.location {
+  line-height: 2em;
+  border-bottom: 2px solid rgba(202,210,207,.5);
+
+}
+
+.location:hover {
+  background-color: #DADADC;
+}
