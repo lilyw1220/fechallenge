@@ -10,8 +10,12 @@ body {
 }
 
 
-.class {
-  
+.status {
+  margin-top: -10px;
+  float: right;
+  margin-bottom: 15px;
+  width: auto;
+
 }
 
 nav {
@@ -23,8 +27,8 @@ nav {
 
 }
 
-.restaurant-list {
-  padding-top: 50px;
+.bus-list {
+  padding-top: 70px;
   background-color: #ffffff
 
 }
@@ -80,6 +84,10 @@ h4{
   margin-top: -2.5em;
 }
 
+.left {
+  float:left;
+  margin-left: -18.5em;
+}
 
 .arrow-left{
   margin-top: 0.5em;
@@ -90,12 +98,8 @@ h4{
   padding: 15px;
 }
 
-.location {
+.busline {
   line-height: 2em;
   border-bottom: 2px solid rgba(202,210,207,.5);
 
-}
-
-.location:hover {
-  background-color: #DADADC;
 }
