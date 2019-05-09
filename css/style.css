@@ -13,7 +13,6 @@ body {
 .status {
   margin-bottom: 15px;
   width: auto;
-
 }
 
 nav {
@@ -68,19 +67,6 @@ h4{
   margin-right: 0.75em;
 }
 
-.interval {
-  float: right;
-  margin-right: 1.5em;
-  margin-top: 2em;
-}
-
-.time {
-  float: right;
-  display: inline-block;
-  margin-right: 1.5em;
-  margin-top: -4em;
-
-}
 
 .ellipsis{
   float:right;
@@ -98,20 +84,14 @@ margin-bottom: 1.5em;
 
 }
 
-.content {
-  padding: 15px;
-}
-
 .busline {
   line-height: 2em;
   border-bottom: 2px solid rgba(202,210,207,.5);
-
 }
 
 .ul {
   background: #ffffff;
   list-style-type: none;
-
 }
 
  .li {
@@ -121,4 +101,5 @@ margin-bottom: 1.5em;
 
 .bus {
   margin-left: 2em;
+  display: inline-block;
 }
