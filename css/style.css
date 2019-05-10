@@ -84,7 +84,7 @@ margin-bottom: 1.5em;
 
 }
 
-.busline {
+.divider {
   line-height: 2em;
   border-bottom: 2px solid rgba(202,210,207,.5);
 }
@@ -102,4 +102,15 @@ margin-bottom: 1.5em;
 .bus {
   margin-left: 2em;
   display: inline-block;
+}
+
+.bus-item {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.time {
+  display: inline-block;
+  margin-left: 3.5em;
+  text-align: right;
 }
